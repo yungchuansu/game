@@ -11,7 +11,7 @@ html{
 	overflow: hidden;
 	/*using flex display style*/
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-self: center;
 }
@@ -31,11 +31,13 @@ h1{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 3vw;
 }
 .clickable_button{
-	width: 10vw;
+	width: 15vw;
     height: 5vw;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .game_wrapper_question{
