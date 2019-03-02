@@ -33,12 +33,20 @@ h1{
 	justify-content: center;
 	align-items: flex-end;
 	margin-bottom: 3vw;
+	color: blue;
 }
+
+
 .clickable_button{
 	width: 15vw;
     height: 5vw;
     font-size: 1vw;
+    color: white;
+    background-color: #1795fc;
+    border: none;
+    border-radius: 7%;
 }
+
 
 .game_wrapper_question{
 	position: absolute;
